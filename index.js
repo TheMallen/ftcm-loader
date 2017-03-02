@@ -1,1 +1,1 @@
-module.exports = require('./lib/ftcmLoader');
+module.exports = require(`${__dirname}/lib/ftcmLoader`);

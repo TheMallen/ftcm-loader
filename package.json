@@ -5,9 +5,6 @@
   "main": "index.js",
   "author": "themallen",
   "license": "MIT",
-  "bin": {
-    "ftcm": "node_modules/friendly-typed-css-modules/lib/cli.js"
-  },
   "dependencies": {
     "friendly-typed-css-modules": "^0.2.6"
   }
