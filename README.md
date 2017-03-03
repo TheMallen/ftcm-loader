@@ -1,15 +1,15 @@
 ## FTCM-Loader
-
-### Notice: this doesn't work yet!
-I accidentally an npm publish whoops.
-
-
 This library is a webpack loader for Friendly-Typed-CSS-Modules. It's super cool and you'll love it.
-
+Every time you change a css file, ftcm-loader will generate new `.d.ts` files next to them. Yay! Types!
 
 ### How to Use
-If you use this loader, you'll be a happy person. You might also want to add a pre-hook to your webpack yarn command.
+Just add this to your webpack config. It should probably be above any transpilers you might have.
 
 ```
-ftcm -p src/**/*.scss -c
+  {
+    loader: 'ftcm-loader',
+    options: {
+      allowGenericStringAccess: true, // this adds `[key: string]: string` to all of your css files allowing you to `accessThem[like + this]`;
+    },
+  },
 ```
