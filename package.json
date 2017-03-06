@@ -6,6 +6,6 @@
   "author": "themallen",
   "license": "MIT",
   "dependencies": {
-    "friendly-typed-css-modules": "^0.2.6"
+    "friendly-typed-css-modules": "^0.3.1"
   }
 }

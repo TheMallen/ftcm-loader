@@ -90,9 +90,9 @@ fastparse@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/fastparse/-/fastparse-1.1.1.tgz#d1e2643b38a94d7583b479060e6c4affc94071f8"
 
-friendly-typed-css-modules@^0.2.6:
-  version "0.2.6"
-  resolved "https://registry.yarnpkg.com/friendly-typed-css-modules/-/friendly-typed-css-modules-0.2.6.tgz#3633feb698e3c06a5fa759282927670f213d6d17"
+friendly-typed-css-modules@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/friendly-typed-css-modules/-/friendly-typed-css-modules-0.3.1.tgz#7da41d84685dcbef8c82777da622a9ee9b59ad93"
   dependencies:
     camelcase "^3.0.0"
     chalk "^1.1.1"
