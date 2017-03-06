@@ -1,6 +1,6 @@
 {
   "name": "ftcm-loader",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "webpack loader leveraging friendly-typed-css-modules",
   "main": "index.js",
   "author": "themallen",
